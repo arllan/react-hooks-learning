@@ -1,10 +1,12 @@
 import React from "react";
 import "./styles/App.css";
 
+import { Aula01 } from "./aulas/index";
+
 function App() {
   return (
     <div className="App">
-      <span>Olá mundo!!!!!</span>
+      <Aula01 />
     </div>
   );
 }
